@@ -6,10 +6,10 @@
 
 <main>
   <div>
-    <a href="https://vitejs.dev" target="_blank"> 
+    <a href="https://vitejs.dev" target="_blank" class="logo"> 
       <ViteLogo />
     </a>
-    <a href="https://svelte.dev" target="_blank"> 
+    <a href="https://svelte.dev" target="_blank" class="logo svelte"> 
       <SvelteLogo />
     </a>
   </div>
