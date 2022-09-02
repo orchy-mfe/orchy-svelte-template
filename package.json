@@ -1,0 +1,29 @@
+{
+  "name": "orchy-svelte-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint ./src --ext .js,.svelte"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@testing-library/svelte": "^3.2.1",
+    "eslint": "^8.23.0",
+    "eslint-config-preact": "^1.3.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "happy-dom": "^6.0.4",
+    "rollup-plugin-visualizer": "^5.8.0",
+    "svelte": "^3.49.0",
+    "vite": "^3.0.9",
+    "vite-plugin-qiankun": "^1.0.15",
+    "vite-plugin-svgr": "^2.2.1",
+    "vitest": "^0.22.1"
+  }
+}
