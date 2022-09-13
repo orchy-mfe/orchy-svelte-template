@@ -13,7 +13,7 @@ export default defineConfig(({mode}) => ({
     visualizer(),
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-svelte-template/',
-  server: {port},
+  server: {port, cors: true},
   test: {
     environment: 'jsdom',
     mockReset: true
