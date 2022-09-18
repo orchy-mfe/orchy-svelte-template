@@ -35,6 +35,10 @@
     "object-curly-spacing": [
       2,
       "never"
+    ],
+    "quote-props": [
+      "error",
+      "as-needed"
     ]
   }
 }
