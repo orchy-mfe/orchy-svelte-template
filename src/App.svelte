@@ -1,10 +1,13 @@
 <script>
+  import {Router} from 'svelte-navigator'
   import SvelteLogo from './assets/svelte.svelte'
   import ViteLogo from './assets/vite.svelte'
   import Counter from './lib/Counter.svelte'
+
+  export let baseUrl
 </script>
 
-<main>
+<Router basePath={baseUrl}>
   <div>
     <a href="https://vitejs.dev" target="_blank" class="logo"> 
       <ViteLogo />
@@ -26,7 +29,7 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
-</main>
+</Router>
 
 <style>
   .logo {
