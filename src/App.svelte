@@ -7,7 +7,7 @@
   export let baseUrl
 </script>
 
-<Router basePath={baseUrl}>
+<Router basepath={baseUrl}>
   <div>
     <a href="https://vitejs.dev" target="_blank" class="logo"> 
       <ViteLogo />
