@@ -13,7 +13,7 @@ specifiers:
   rxjs: ^7.5.7
   svelte: ^3.50.1
   svelte-navigator: ^3.2.2
-  vite: ^3.1.6
+  vite: ^3.1.7
   vite-plugin-qiankun: ^1.0.15
   vite-plugin-svgr: ^2.2.1
   vitest: ^0.24.0
@@ -22,7 +22,7 @@ dependencies:
   rxjs: 7.5.7
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.9_svelte@3.50.1+vite@3.1.6
+  '@sveltejs/vite-plugin-svelte': 1.0.9_svelte@3.50.1+vite@3.1.7
   '@testing-library/svelte': 3.2.2_svelte@3.50.1
   eslint: 8.25.0
   eslint-config-preact: 1.3.0_vdsfgbufkyw5n7ix4t342ycv6i
@@ -33,9 +33,9 @@ devDependencies:
   rollup-plugin-visualizer: 5.8.2
   svelte: 3.50.1
   svelte-navigator: 3.2.2_lvkgont3qnzb2nxv55gccfzowm
-  vite: 3.1.6
-  vite-plugin-qiankun: 1.0.15_zmvox7w4nlwtyzfbtbxdayfupi
-  vite-plugin-svgr: 2.2.1_vite@3.1.6
+  vite: 3.1.7
+  vite-plugin-qiankun: 1.0.15_bwpcywounemp4btwtkepiy5k7e
+  vite-plugin-svgr: 2.2.1_vite@3.1.7
   vitest: 0.24.0_jsdom@20.0.1
 
 packages:
@@ -426,7 +426,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.9_svelte@3.50.1+vite@3.1.6:
+  /@sveltejs/vite-plugin-svelte/1.0.9_svelte@3.50.1+vite@3.1.7:
     resolution: {integrity: sha512-+SDrAnT7TDi8sdj4OfD2SC4s9DNrpNVBrue8fT2PmKks9Ddu0JIfSeX91wXZb/1xHz4EkGb+rli8GTRI0yGOjg==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -444,7 +444,7 @@ packages:
       magic-string: 0.26.6
       svelte: 3.50.1
       svelte-hmr: 0.15.0_svelte@3.50.1
-      vite: 3.1.6
+      vite: 3.1.7
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3083,7 +3083,7 @@ packages:
       requires-port: 1.0.0
     dev: true
 
-  /vite-plugin-qiankun/1.0.15_zmvox7w4nlwtyzfbtbxdayfupi:
+  /vite-plugin-qiankun/1.0.15_bwpcywounemp4btwtkepiy5k7e:
     resolution: {integrity: sha512-0QB0Wr8Eu/LGcuJAfuNXDb7BAFDszo3GCxq4bzgXdSFAlK425u1/UGMxaDEBVA1uPFrLsZPzig83Ufdfl6J45A==}
     peerDependencies:
       typescript: '>=4'
@@ -3091,23 +3091,23 @@ packages:
     dependencies:
       cheerio: 1.0.0-rc.12
       typescript: 4.8.2
-      vite: 3.1.6
+      vite: 3.1.7
     dev: true
 
-  /vite-plugin-svgr/2.2.1_vite@3.1.6:
+  /vite-plugin-svgr/2.2.1_vite@3.1.7:
     resolution: {integrity: sha512-+EqwahbwjETJH/ssA/66dNYyKN1cO0AStq96MuXmq5maU7AePBMf2lDKfQna49tJZAjtRz+R899BWCsUUP45Fg==}
     peerDependencies:
       vite: ^2.6.0 || 3
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@svgr/core': 6.3.1
-      vite: 3.1.6
+      vite: 3.1.7
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.1.6:
-    resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
+  /vite/3.1.7:
+    resolution: {integrity: sha512-5vCAmU4S8lyVdFCInu9M54f/g8qbOMakVw5xJ4pjoaDy5wgy9sLLZkGdSLN52dlsBqh0tBqxjaqqa8LgPqwRAA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3166,7 +3166,7 @@ packages:
       tinybench: 2.3.0
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.6
+      vite: 3.1.7
     transitivePeerDependencies:
       - less
       - sass
