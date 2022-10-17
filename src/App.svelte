@@ -1,5 +1,5 @@
 <script>
-  import {Router, history} from 'svelte-navigator'
+  import {Router, createHistory} from 'svelte-navigator'
   import SvelteLogo from './assets/svelte.svelte'
   import ViteLogo from './assets/vite.svelte'
   import Counter from './lib/Counter.svelte'
