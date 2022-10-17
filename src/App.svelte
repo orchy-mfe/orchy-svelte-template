@@ -1,13 +1,15 @@
 <script>
-  import {Router} from 'svelte-navigator'
+  import {Router, history} from 'svelte-navigator'
   import SvelteLogo from './assets/svelte.svelte'
   import ViteLogo from './assets/vite.svelte'
   import Counter from './lib/Counter.svelte'
 
+  const history = createHistory(window)
+
   export let baseUrl
 </script>
 
-<Router basepath={baseUrl}>
+<Router basepath={baseUrl} history={history}>
   <div>
     <a href="https://vitejs.dev" target="_blank" class="logo"> 
       <ViteLogo />
