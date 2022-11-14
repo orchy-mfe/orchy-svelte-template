@@ -23,11 +23,11 @@
     "svelte": "^3.53.1",
     "svelte-navigator": "^3.2.2",
     "vite": "^3.2.3",
-    "vite-plugin-qiankun": "^1.0.15",
     "vite-plugin-svgr": "^2.2.2",
     "vitest": "^0.25.2"
   },
   "dependencies": {
+    "@orchy-mfe/spa-adapter": "^0.1.0",
     "rxjs": "^7.5.7"
   }
 }

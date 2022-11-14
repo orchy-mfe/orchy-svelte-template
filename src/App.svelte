@@ -6,10 +6,10 @@
 
   const history = createHistory(window)
 
-  export let baseUrl
+  export let basePath
 </script>
 
-<Router basepath={baseUrl} history={history}>
+<Router basepath={basePath} history={history}>
   <div>
     <a href="https://vitejs.dev" target="_blank" class="logo"> 
       <ViteLogo />
