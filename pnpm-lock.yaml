@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@orchy-mfe/spa-adapter': ^0.1.1
-  '@sveltejs/vite-plugin-svelte': ^1.3.0
+  '@sveltejs/vite-plugin-svelte': ^1.3.1
   '@testing-library/svelte': ^3.2.2
   eslint: ^8.28.0
   eslint-config-preact: ^1.3.0
@@ -24,7 +24,7 @@ dependencies:
   rxjs: 7.5.7
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.3.0_svelte@3.53.1+vite@3.2.4
+  '@sveltejs/vite-plugin-svelte': 1.3.1_svelte@3.53.1+vite@3.2.4
   '@testing-library/svelte': 3.2.2_svelte@3.53.1
   eslint: 8.28.0
   eslint-config-preact: 1.3.0_elgqllre2y62hcrbzwrqadhhme
@@ -444,8 +444,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.3.0_svelte@3.53.1+vite@3.2.4:
-    resolution: {integrity: sha512-DZtl1qFT+re4HwEP8PjVZNIP7NO3Ua/akYpPteTXOT57PQNTXBK8pIAv4WwhQXMWIa8JcMNOnML95FR/Mhb3gw==}
+  /@sveltejs/vite-plugin-svelte/1.3.1_svelte@3.53.1+vite@3.2.4:
+    resolution: {integrity: sha512-2Uu2sDdIR+XQWF7QWOVSF2jR9EU6Ciw1yWfYnfLYj8HIgnNxkh/8g22Fw2pBUI8QNyW/KxtqJUWBI+8ypamSrQ==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5
@@ -462,7 +462,7 @@ packages:
       svelte: 3.53.1
       svelte-hmr: 0.15.1_svelte@3.53.1
       vite: 3.2.4
-      vitefu: 0.2.1_vite@3.2.4
+      vitefu: 0.2.2_vite@3.2.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3128,8 +3128,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu/0.2.1_vite@3.2.4:
-    resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
+  /vitefu/0.2.2_vite@3.2.4:
+    resolution: {integrity: sha512-8CKEIWPm4B4DUDN+h+hVJa9pyNi7rzc5MYmbxhs1wcMakueGFNWB5/DL30USm9qU3xUPnL4/rrLEAwwFiD1tag==}
     peerDependencies:
       vite: ^3.0.0
     peerDependenciesMeta:
