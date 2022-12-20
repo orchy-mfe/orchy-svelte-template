@@ -17,7 +17,7 @@ specifiers:
   vite: ^4.0.2
   vite-plugin-css-injected-by-js: ^2.2.0
   vite-plugin-svgr: ^2.4.0
-  vitest: ^0.26.0
+  vitest: ^0.26.1
 
 dependencies:
   '@orchy-mfe/spa-adapter': 0.1.1
@@ -38,7 +38,7 @@ devDependencies:
   vite: 4.0.2
   vite-plugin-css-injected-by-js: 2.2.0_vite@4.0.2
   vite-plugin-svgr: 2.4.0_vite@4.0.2
-  vitest: 0.26.0_jsdom@20.0.3
+  vitest: 0.26.1_jsdom@20.0.3
 
 packages:
 
@@ -3111,8 +3111,8 @@ packages:
       requires-port: 1.0.0
     dev: true
 
-  /vite-node/0.26.0_@types+node@18.7.14:
-    resolution: {integrity: sha512-nLtHWCv6reONl1oFsKhQ/LT7n3UNLpvVARAJlmGrQV6qSElht/9AdN41Pa+WSkw2Winh682UzM0Yw0GNlfqejw==}
+  /vite-node/0.26.1_@types+node@18.7.14:
+    resolution: {integrity: sha512-5FJSKZZJz48zFRKHE55WyevZe61hLMQEsqGn+ungfd60kxEztFybZ3yG9ToGFtOWNCCy7Vn5EVuXD8bdeHOSdw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     dependencies:
@@ -3231,8 +3231,8 @@ packages:
       vite: 4.0.2
     dev: true
 
-  /vitest/0.26.0_jsdom@20.0.3:
-    resolution: {integrity: sha512-5kUnms5WOa0qrDCJePEPB13v9mhr+ZT1Qy0qNg0eVj1X7/Fx4GY4L1e5s3OH+BQ/J7M5WtaKsUGv9l1pbC7v2Q==}
+  /vitest/0.26.1_jsdom@20.0.3:
+    resolution: {integrity: sha512-qTLRnjYmjmJpHlLUtErxtlRqGCe8WItFhGXKklpWivu7CLP9KXN9iTezROe+vf51Kb+BB/fzxK6fUG9DvFGL5Q==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3268,7 +3268,7 @@ packages:
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 4.0.2_@types+node@18.7.14
-      vite-node: 0.26.0_@types+node@18.7.14
+      vite-node: 0.26.1_@types+node@18.7.14
     transitivePeerDependencies:
       - less
       - sass
