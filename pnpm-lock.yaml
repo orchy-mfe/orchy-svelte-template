@@ -15,7 +15,7 @@ specifiers:
   svelte: ^3.55.0
   svelte-navigator: ^3.2.2
   vite: ^4.0.4
-  vite-plugin-css-injected-by-js: ^2.2.0
+  vite-plugin-css-injected-by-js: ^2.3.1
   vite-plugin-svgr: ^2.4.0
   vitest: ^0.27.0
 
@@ -36,7 +36,7 @@ devDependencies:
   svelte: 3.55.0
   svelte-navigator: 3.2.2_sdd4gglvr7vzydy7evwje6oyf4
   vite: 4.0.4
-  vite-plugin-css-injected-by-js: 2.2.0_vite@4.0.4
+  vite-plugin-css-injected-by-js: 2.3.1_vite@4.0.4
   vite-plugin-svgr: 2.4.0_vite@4.0.4
   vitest: 0.27.0_jsdom@21.0.0
 
@@ -3140,8 +3140,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js/2.2.0_vite@4.0.4:
-    resolution: {integrity: sha512-SRGuyY1WUHj7cPzv7AIE0bG5Cb+vioxuq3CkFc1j0b8z5Cy3rXLG8SwxjriylFcZAY7tH2jU4i1bsCJRE/ou6g==}
+  /vite-plugin-css-injected-by-js/2.3.1_vite@4.0.4:
+    resolution: {integrity: sha512-IPd5YJWFtQWO99F/C3qhyBqJnzkbeltn0Lefj0eit8whc9XFjRjL8EA+nVITDb7NBoM0reRqXvNmxWss3BzQgQ==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
