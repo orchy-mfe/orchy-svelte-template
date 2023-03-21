@@ -6,7 +6,7 @@ specifiers:
   '@testing-library/svelte': ^3.2.2
   eslint: ^8.36.0
   eslint-config-preact: ^1.3.0
-  eslint-config-prettier: ^8.7.0
+  eslint-config-prettier: ^8.8.0
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-svelte3: ^4.0.0
   jsdom: ^21.1.1
@@ -28,8 +28,8 @@ devDependencies:
   '@testing-library/svelte': 3.2.2_svelte@3.57.0
   eslint: 8.36.0
   eslint-config-preact: 1.3.0_ysk5zcqvs2nr3b4spvycyxin34
-  eslint-config-prettier: 8.7.0_eslint@8.36.0
-  eslint-plugin-prettier: 4.2.1_lu2kqpsqckgnpxdsglokiwnise
+  eslint-config-prettier: 8.8.0_eslint@8.36.0
+  eslint-plugin-prettier: 4.2.1_jhpjjlkfy7um3ykaoywtkhcypa
   eslint-plugin-svelte3: 4.0.0_wzem237sbvnwe7n34ytc5phasy
   jsdom: 21.1.1
   rollup-plugin-visualizer: 5.9.0
@@ -1548,8 +1548,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-config-prettier/8.7.0_eslint@8.36.0:
-    resolution: {integrity: sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==}
+  /eslint-config-prettier/8.8.0_eslint@8.36.0:
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1594,7 +1594,7 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_lu2kqpsqckgnpxdsglokiwnise:
+  /eslint-plugin-prettier/4.2.1_jhpjjlkfy7um3ykaoywtkhcypa:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1606,7 +1606,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.36.0
-      eslint-config-prettier: 8.7.0_eslint@8.36.0
+      eslint-config-prettier: 8.8.0_eslint@8.36.0
       prettier: 2.7.1
       prettier-linter-helpers: 1.0.0
     dev: true
