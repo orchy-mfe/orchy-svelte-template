@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^2.4.2
     version: 2.4.2(svelte@4.0.0)(vite@4.3.9)
   '@testing-library/svelte':
-    specifier: ^4.0.0
-    version: 4.0.0(svelte@4.0.0)
+    specifier: ^4.0.1
+    version: 4.0.1(svelte@4.0.0)
   eslint:
     specifier: ^8.43.0
     version: 8.43.0
@@ -862,15 +862,15 @@ packages:
       '@babel/code-frame': 7.21.4
       '@babel/runtime': 7.18.9
       '@types/aria-query': 4.2.2
-      aria-query: 5.0.2
+      aria-query: 5.2.1
       chalk: 4.1.2
       dom-accessibility-api: 0.5.14
       lz-string: 1.4.4
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/svelte@4.0.0(svelte@4.0.0):
-    resolution: {integrity: sha512-LRsrUm0FPn/PSdiyFGpix7i3VwgvF65Uw6eLboTM84SWGvRnBlE0VkawrhGl49Phh2nyZ7mS7M0gtVl3OM1eKQ==}
+  /@testing-library/svelte@4.0.1(svelte@4.0.0):
+    resolution: {integrity: sha512-rvqkMlkXPtbtMbYQsWTb666yBAJVrTJcek2TlDogBKhxwYKqbWgvtTftMNclPi5aLgy+QGndTyIf4gtdFKaiXA==}
     engines: {node: '>= 10'}
     peerDependencies:
       svelte: ^3 || ^4
@@ -1093,11 +1093,6 @@ packages:
 
   /argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
-    dev: true
-
-  /aria-query@5.0.2:
-    resolution: {integrity: sha512-eigU3vhqSO+Z8BKDnVLN/ompjhf3pYzecKXz8+whRy+9gZu8n1TCGfwzQUUPnqdHl9ax1Hr9031orZ+UOEYr7Q==}
-    engines: {node: '>=6.0'}
     dev: true
 
   /aria-query@5.2.1:
