@@ -19,7 +19,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-svelte3": "^4.0.0",
     "jsdom": "^22.1.0",
-    "rollup-plugin-visualizer": "^5.9.2",
+    "rollup-plugin-visualizer": "^5.9.3",
     "svelte": "^4.2.7",
     "svelte-navigator": "^3.2.2",
     "vite": "^5.0.2",
