@@ -22,7 +22,7 @@
     "svelte": "^4.2.19",
     "svelte-navigator": "^3.2.2",
     "vite": "^5.4.8",
-    "vite-plugin-css-injected-by-js": "^3.5.1",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-plugin-svgr": "^4.2.0",
     "vitest": "^2.1.1"
   },
