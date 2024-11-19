@@ -19,8 +19,8 @@ importers:
         specifier: ^3.1.2
         version: 3.1.2(svelte@4.2.19)(vite@5.4.11)
       '@testing-library/svelte':
-        specifier: ^5.2.4
-        version: 5.2.4(svelte@4.2.19)(vite@5.4.11)(vitest@2.1.5(jsdom@25.0.1))
+        specifier: ^5.2.5
+        version: 5.2.5(svelte@4.2.19)(vite@5.4.11)(vitest@2.1.5(jsdom@25.0.1))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -547,8 +547,8 @@ packages:
     resolution: {integrity: sha512-CytIvb6tVOADRngTHGWNxH8LPgO/3hi/BdCEHOf7Qd2GvZVClhVP0Wo/QHzWhpki49Bk0b4VT6xpt3fx8HTSIw==}
     engines: {node: '>=18'}
 
-  '@testing-library/svelte@5.2.4':
-    resolution: {integrity: sha512-EFdy73+lULQgMJ1WolAymrxWWrPv9DWyDuDFKKlUip2PA/EXuHptzfYOKWljccFWDKhhGOu3dqNmoc2f/h/Ecg==}
+  '@testing-library/svelte@5.2.5':
+    resolution: {integrity: sha512-WtWAquunZxWKiIxGmye1ylNPi25YPYPdTnzpOxwHJDAVy2KeyLfCrQTRsqeaivFipAXXBI2jZvkalbio0E/rhA==}
     engines: {node: '>= 10'}
     peerDependencies:
       svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
@@ -2075,7 +2075,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/svelte@5.2.4(svelte@4.2.19)(vite@5.4.11)(vitest@2.1.5(jsdom@25.0.1))':
+  '@testing-library/svelte@5.2.5(svelte@4.2.19)(vite@5.4.11)(vitest@2.1.5(jsdom@25.0.1))':
     dependencies:
       '@testing-library/dom': 10.2.0
       svelte: 4.2.19
