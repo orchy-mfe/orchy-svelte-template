@@ -17,10 +17,10 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.1.2
-        version: 3.1.2(svelte@4.2.19)(vite@6.0.6)
+        version: 3.1.2(svelte@4.2.19)(vite@6.0.7)
       '@testing-library/svelte':
         specifier: ^5.2.6
-        version: 5.2.6(svelte@4.2.19)(vite@6.0.6)(vitest@2.1.8(jsdom@25.0.1))
+        version: 5.2.6(svelte@4.2.19)(vite@6.0.7)(vitest@2.1.8(jsdom@25.0.1))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -46,14 +46,14 @@ importers:
         specifier: ^3.2.2
         version: 3.2.2(svelte@4.2.19)(typescript@4.8.2)
       vite:
-        specifier: ^6.0.6
-        version: 6.0.6
+        specifier: ^6.0.7
+        version: 6.0.7
       vite-plugin-css-injected-by-js:
         specifier: ^3.5.2
-        version: 3.5.2(vite@6.0.6)
+        version: 3.5.2(vite@6.0.7)
       vite-plugin-svgr:
         specifier: ^4.3.0
-        version: 4.3.0(rollup@4.27.4)(vite@6.0.6)
+        version: 4.3.0(rollup@4.27.4)(vite@6.0.7)
       vitest:
         specifier: ^2.1.8
         version: 2.1.8(jsdom@25.0.1)
@@ -1694,8 +1694,8 @@ packages:
       terser:
         optional: true
 
-  vite@6.0.6:
-    resolution: {integrity: sha512-NSjmUuckPmDU18bHz7QZ+bTYhRR0iA72cs2QAxCqDpafJ0S6qetco0LB3WW2OxlMHS0JmAv+yZ/R3uPmMyGTjQ==}
+  vite@6.0.7:
+    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -2264,26 +2264,26 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.27.4':
     optional: true
 
-  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@6.0.6))(svelte@4.2.19)(vite@6.0.6)':
+  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@6.0.7))(svelte@4.2.19)(vite@6.0.7)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@4.2.19)(vite@6.0.6)
+      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@4.2.19)(vite@6.0.7)
       debug: 4.3.5
       svelte: 4.2.19
-      vite: 6.0.6
+      vite: 6.0.7
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@6.0.6)':
+  '@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@6.0.7)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@6.0.6))(svelte@4.2.19)(vite@6.0.6)
+      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@6.0.7))(svelte@4.2.19)(vite@6.0.7)
       debug: 4.3.5
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.10
       svelte: 4.2.19
       svelte-hmr: 0.16.0(svelte@4.2.19)
-      vite: 6.0.6
-      vitefu: 0.2.5(vite@6.0.6)
+      vite: 6.0.7
+      vitefu: 0.2.5(vite@6.0.7)
     transitivePeerDependencies:
       - supports-color
 
@@ -2367,12 +2367,12 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/svelte@5.2.6(svelte@4.2.19)(vite@6.0.6)(vitest@2.1.8(jsdom@25.0.1))':
+  '@testing-library/svelte@5.2.6(svelte@4.2.19)(vite@6.0.7)(vitest@2.1.8(jsdom@25.0.1))':
     dependencies:
       '@testing-library/dom': 10.2.0
       svelte: 4.2.19
     optionalDependencies:
-      vite: 6.0.6
+      vite: 6.0.7
       vitest: 2.1.8(jsdom@25.0.1)
 
   '@types/aria-query@5.0.1': {}
@@ -3349,16 +3349,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-css-injected-by-js@3.5.2(vite@6.0.6):
+  vite-plugin-css-injected-by-js@3.5.2(vite@6.0.7):
     dependencies:
-      vite: 6.0.6
+      vite: 6.0.7
 
-  vite-plugin-svgr@4.3.0(rollup@4.27.4)(vite@6.0.6):
+  vite-plugin-svgr@4.3.0(rollup@4.27.4)(vite@6.0.7):
     dependencies:
       '@rollup/pluginutils': 5.1.3(rollup@4.27.4)
       '@svgr/core': 8.1.0
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0)
-      vite: 6.0.6
+      vite: 6.0.7
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -3371,7 +3371,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vite@6.0.6:
+  vite@6.0.7:
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
@@ -3379,9 +3379,9 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@6.0.6):
+  vitefu@0.2.5(vite@6.0.7):
     optionalDependencies:
-      vite: 6.0.6
+      vite: 6.0.7
 
   vitest@2.1.8(jsdom@25.0.1):
     dependencies:
