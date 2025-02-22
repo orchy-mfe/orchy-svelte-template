@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@orchy-mfe/spa-adapter": "^0.1.1",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.2"
   }
 }
