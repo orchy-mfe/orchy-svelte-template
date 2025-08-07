@@ -15,7 +15,7 @@
     "@testing-library/svelte": "^5.2.8",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.3",
+    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-svelte3": "^4.0.0",
     "jsdom": "^26.1.0",
     "rollup-plugin-visualizer": "^6.0.3",
