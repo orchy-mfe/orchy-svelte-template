@@ -21,7 +21,7 @@
     "rollup-plugin-visualizer": "^6.0.4",
     "svelte": "^4.2.20",
     "svelte-navigator": "^3.2.2",
-    "vite": "^7.1.7",
+    "vite": "^7.1.8",
     "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-plugin-svgr": "^4.5.0",
     "vitest": "^3.2.4"
