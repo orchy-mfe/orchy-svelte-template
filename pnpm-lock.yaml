@@ -37,8 +37,8 @@ importers:
         specifier: ^26.1.0
         version: 26.1.0
       rollup-plugin-visualizer:
-        specifier: ^6.0.4
-        version: 6.0.4(rollup@4.46.2)
+        specifier: ^6.0.5
+        version: 6.0.5(rollup@4.46.2)
       svelte:
         specifier: ^4.2.20
         version: 4.2.20
@@ -1378,8 +1378,8 @@ packages:
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
-  rollup-plugin-visualizer@6.0.4:
-    resolution: {integrity: sha512-q8Q7J/6YofkmaGW1sH/fPRAz37x/+pd7VBuaUU7lwvOS/YikuiiEU9jeb9PH8XHiq50XFrUsBbOxeAMYQ7KZkg==}
+  rollup-plugin-visualizer@6.0.5:
+    resolution: {integrity: sha512-9+HlNgKCVbJDs8tVtjQ43US12eqaiHyyiLMdBwQ7vSZPiHMysGNo2E88TAp1si5wx8NAoYriI2A5kuKfIakmJg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -2985,7 +2985,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rollup-plugin-visualizer@6.0.4(rollup@4.46.2):
+  rollup-plugin-visualizer@6.0.5(rollup@4.46.2):
     dependencies:
       open: 8.4.0
       picomatch: 4.0.3
