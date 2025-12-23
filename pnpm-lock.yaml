@@ -19,8 +19,8 @@ importers:
         specifier: ^3.1.2
         version: 3.1.2(svelte@4.2.20)(vite@7.3.0)
       '@testing-library/svelte':
-        specifier: ^5.2.10
-        version: 5.2.10(svelte@4.2.20)(vite@7.3.0)(vitest@4.0.4(jsdom@26.1.0))
+        specifier: ^5.3.0
+        version: 5.3.0(svelte@4.2.20)(vite@7.3.0)(vitest@4.0.4(jsdom@26.1.0))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -622,8 +622,14 @@ packages:
     resolution: {integrity: sha512-CytIvb6tVOADRngTHGWNxH8LPgO/3hi/BdCEHOf7Qd2GvZVClhVP0Wo/QHzWhpki49Bk0b4VT6xpt3fx8HTSIw==}
     engines: {node: '>=18'}
 
-  '@testing-library/svelte@5.2.10':
-    resolution: {integrity: sha512-siiR6FknvRN0Tt4m8mf0ejvahSRi3/n10Awyns0R7huMCNBHSrSzzXa//hJqhtEstZ7b2ZZMZwuYhcD0BIk/bA==}
+  '@testing-library/svelte-core@1.0.0':
+    resolution: {integrity: sha512-VkUePoLV6oOYwSUvX6ShA8KLnJqZiYMIbP2JW2t0GLWLkJxKGvuH5qrrZBV/X7cXFnLGuFQEC7RheYiZOW68KQ==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
+
+  '@testing-library/svelte@5.3.0':
+    resolution: {integrity: sha512-N1b+OAZNF34iMmtTbj5TyE0Ff+NJ/Mp6E483qOIeyzRUKOTcj2N5jEEl56RJeNq5jeQ4kZp/oMA0hCybXydrtQ==}
     engines: {node: '>= 10'}
     peerDependencies:
       svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
@@ -2208,9 +2214,14 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/svelte@5.2.10(svelte@4.2.20)(vite@7.3.0)(vitest@4.0.4(jsdom@26.1.0))':
+  '@testing-library/svelte-core@1.0.0(svelte@4.2.20)':
+    dependencies:
+      svelte: 4.2.20
+
+  '@testing-library/svelte@5.3.0(svelte@4.2.20)(vite@7.3.0)(vitest@4.0.4(jsdom@26.1.0))':
     dependencies:
       '@testing-library/dom': 10.2.0
+      '@testing-library/svelte-core': 1.0.0(svelte@4.2.20)
       svelte: 4.2.20
     optionalDependencies:
       vite: 7.3.0
