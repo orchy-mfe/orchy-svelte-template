@@ -11,7 +11,7 @@
     "lint": "eslint ./src --ext .js,.svelte"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@testing-library/svelte": "^5.3.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
